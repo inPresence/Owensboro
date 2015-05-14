@@ -3,12 +3,21 @@ body {
 	background-repeat: repeat-x;
 	background-color: white;
 }
+.headWrapper {
+    background-image: -webkit-linear-gradient(270deg,rgba(0,50,160,1.00) 0%,rgba(30,156,215,1.00) 100%);
+    background-image: -moz-linear-gradient(270deg,rgba(0,50,160,1.00) 0%,rgba(30,156,215,1.00) 100%);
+    background-image: -o-linear-gradient(270deg,rgba(0,50,160,1.00) 0%,rgba(30,156,215,1.00) 100%);
+    background-image: linear-gradient(180deg,rgba(0,50,160,1.00) 0%,rgba(30,156,215,1.00) 100%);
+
+    height: 140px;
+}
+
 #header_main {
-	background-image: -webkit-linear-gradient(270deg,rgba(0,50,160,1.00) 0%,rgba(30,156,215,1.00) 100%);
-	background-image: -moz-linear-gradient(270deg,rgba(0,50,160,1.00) 0%,rgba(30,156,215,1.00) 100%);
-	background-image: -o-linear-gradient(270deg,rgba(0,50,160,1.00) 0%,rgba(30,156,215,1.00) 100%);
-	background-image: linear-gradient(180deg,rgba(0,50,160,1.00) 0%,rgba(30,156,215,1.00) 100%);
-	width: 100%;
+    /*background-image: -webkit-linear-gradient(270deg,rgba(0,50,160,1.00) 0%,rgba(30,156,215,1.00) 100%);
+    background-image: -moz-linear-gradient(270deg,rgba(0,50,160,1.00) 0%,rgba(30,156,215,1.00) 100%);
+    background-image: -o-linear-gradient(270deg,rgba(0,50,160,1.00) 0%,rgba(30,156,215,1.00) 100%);
+    background-image: linear-gradient(180deg,rgba(0,50,160,1.00) 0%,rgba(30,156,215,1.00) 100%);*/
+    width: 100%;
 }
 #blueTop {
 	background-color: #295F96;
@@ -28,6 +37,37 @@ body {
 } */
 
 #header_right {
+}
+
+.row#login {
+    margin-top: 15px;
+}
+
+.row#login .columns {
+    text-align: center;
+}
+
+.row#login input {
+    margin-bottom: 1px;
+    height: 26px;
+}
+
+.row#login label {
+    color: white;
+}
+
+#login_text {
+    margin: 0;
+    color: white;
+}
+
+#navigation {
+    position: absolute;
+    bottom: 0;
+}
+
+#navigation nav.top-bar {
+    height: 35px;
 }
 
 #searchbar {
@@ -176,7 +216,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff9f9', end
 	padding-bottom: 5px;
 	padding-left: auto;
 }
- 
+
 #foot_info {
 	margin: 0 auto;
 	padding: 10px 0;
@@ -198,7 +238,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff9f9', end
 }
 
 .button {
-	background: #003aa4; 
+	background: #003aa4;
 }
 .nav .button {
 	padding-top: 0.5em;
@@ -212,7 +252,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff9f9', end
 	font-size: 15px;
 	font-weight:bold;
 	position:relative;
-	
+
 }
 .panel-image{
 	position: absolute;
@@ -250,19 +290,26 @@ ul.button-group.even-6.show-for-medium-up li a {
 #header_right h5 {
 	float: right;
 	}
-	
+
 #header_right .top-bar, #header_right .top-bar-section ul li , #header_right .top-bar-section li:not(.has-form) a:not(.button){
-	background: none;	
+	background: none;
 	}
 #header_right .top-bar a, #icon-grid a {
-  color: black;
-  text-decoration: underline;
+  color: white;
+  text-decoration: none;
   font-weight: bold;
-	}
+  border-right: 1px solid white;
+  line-height: normal;
+    }
 #header_right .top-bar a:hover, #icon-grid a:hover {
-	color: #7d7d7d;
-	}
-	
+    /*color: #7d7d7d;*/
+    color: yellow;
+    }
+
+#header_right .top-bar li a:last-child {
+    /*border-right: none;*/
+}
+
 #home_link img {
 	height: 17px;
 	width: auto;
@@ -270,14 +317,14 @@ ul.button-group.even-6.show-for-medium-up li a {
 footer .contain-to-grid, .footer .top-bar-section ul li, .footer .top-bar-section li:not(.has-form) a:not(.button), footer .top-bar{
 	background: #7BA8BB;
 	}
-	
+
 .divider {
 	display: none;
 	}
 #fees {
 	width: 100%;
 	}
-	
+
 .loans .accordion .accordion-navigation > .content, .accordion dd > .content {
   display: block;
   padding: 0 0.9375rem;
@@ -339,20 +386,20 @@ h1 {
 
 .overlay-container .border {
 	 border:1px solid #cccccc;
-	 
+
 }
 
 .loans .accordion {
 	margin-bottom: 10px;
 	}
-	
-/*styles added for Disclosures  */	
+
+/*styles added for Disclosures  */
 
  .centered {
 	text-align: center;
 }
 
-/*styles added for About Us timeline   */	
+/*styles added for About Us timeline   */
 
  .timeline {
 	margin: 0 19px;
@@ -369,7 +416,7 @@ h1 {
 	border-radius: 1em;
 	min-height: 706px;
 	}
-	
+
 #box_welcome {
 	background-color: #95BECF;
 }
@@ -383,15 +430,15 @@ h1 {
 
 #box_products ul {
 	list-style: none;
-	margin: 0.75em 0;  
-    padding: 0 1em;  
+	margin: 0.75em 0;
+    padding: 0 1em;
 	}
 
 @media only screen and (max-width: 40em) {
     .footer {
         text-align: center;
     }
-	
+
 
 
     #foot_info {
