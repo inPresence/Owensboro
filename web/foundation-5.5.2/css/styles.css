@@ -1,0 +1,392 @@
+body {
+	background: url(../img/bkg.png);
+	background-repeat: repeat-x;
+	background-color: white;
+}
+#header_main {
+	background-image: -webkit-linear-gradient(270deg,rgba(0,50,160,1.00) 0%,rgba(30,156,215,1.00) 100%);
+	background-image: -moz-linear-gradient(270deg,rgba(0,50,160,1.00) 0%,rgba(30,156,215,1.00) 100%);
+	background-image: -o-linear-gradient(270deg,rgba(0,50,160,1.00) 0%,rgba(30,156,215,1.00) 100%);
+	background-image: linear-gradient(180deg,rgba(0,50,160,1.00) 0%,rgba(30,156,215,1.00) 100%);
+	width: 100%;
+}
+#blueTop {
+	background-color: #295F96;
+	width: 100%;
+	height: 5px;
+}
+
+#header_left, #header_right {
+    height: 140px;
+    max-height: 150px;
+}
+
+/*#header_left {
+    background: url(../img/header.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+
+#header_right {
+}
+
+#searchbar {
+    margin-top: 10px;
+}
+
+.nav {
+    margin-bottom: 10px;
+}
+
+.nav > .button-group {
+    margin-top: 10px;
+}
+
+.accordion {
+    margin: 0;
+}
+.accordion .accordion-navigation, .accordion dd {
+    display: block;
+    margin-bottom: 0 !important; }
+    .accordion .accordion-navigation.active > a, .accordion dd.active > a {
+      background: #e8e8e8; }
+    .accordion .accordion-navigation > a, .accordion dd > a {
+	/*background: #EFEFEF;*/
+	background: #fff9f9; /* Old browsers */
+	background: -moz-linear-gradient(top,  #fff9f9 0%, #fff9f9 50%, #dadeea 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fff9f9), color-stop(50%,#fff9f9), color-stop(100%,#dadeea)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #fff9f9 0%,#fff9f9 50%,#dadeea 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #fff9f9 0%,#fff9f9 50%,#dadeea 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #fff9f9 0%,#fff9f9 50%,#dadeea 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #fff9f9 0%,#fff9f9 50%,#dadeea 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff9f9', endColorstr='#dadeea',GradientType=0 ); /* IE6-9 */
+	border-bottom-style: solid;
+	border-bottom-color: #A2BAE6;
+	color: #06287E;
+	padding: 0.4rem;
+	display: block;
+	font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+	font-size: 1.2rem;
+	font-weight: bold;
+}
+.login_block {
+    padding: 10px;
+    text-align: center;
+}
+
+.login_block input[type='text'],
+.login_block input[type='password'] {
+    width: 250px;
+    margin: 10px auto;
+    text-align: center;
+}
+
+.grid div {
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+}
+
+.grid li {
+    padding: 20px;
+}
+
+.grid p {
+  text-align: center;
+  vertical-align: middle;
+  height: 100px;
+  padding-top: 10px;
+  font-weight: bold;
+  width: 100px;
+  margin: 0 auto;
+}
+
+.menu-links {
+    margin: 0;
+    max-width: 100%;
+}
+
+.menu-links .top-bar-section li {
+    float: left;
+    width: 20%;
+
+    text-align: center;
+}
+
+.menu-links .top-bar-section li a {
+    padding-left: 0;
+}
+
+.search {
+    padding: 5px;
+    height: 60px;
+}
+
+.search input, .search .button {
+    /*height: 45px;*/
+}
+
+.search .button {
+    /*padding: 15px;*/
+}
+#box_welcome {
+	background-color: #95BECF;
+	border: medium solid #33CAD0;
+	border-radius: 1em;
+}
+#box_locations {
+	background-color: #A7CAD7;
+	border: medium solid #33CAD0;
+	border-radius: 1em;	
+}
+#box_products {
+	background-color: #C6DCE5;
+	border: medium solid #33CAD0;
+	border-radius: 1em;
+}
+.footer {
+	background: #1e9cd7; /* Old browsers */
+	background: -moz-linear-gradient(left,  #1e9cd7 0%, #0033a0 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%,#1e9cd7), color-stop(100%,#0033a0)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(left,  #1e9cd7 0%,#0033a0 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(left,  #1e9cd7 0%,#0033a0 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(left,  #1e9cd7 0%,#0033a0 100%); /* IE10+ */
+	background: linear-gradient(to right,  #1e9cd7 0%,#0033a0 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e9cd7', endColorstr='#0033a0',GradientType=1 ); /* IE6-9 */
+
+    margin: 0;
+	width: 100%;
+    /*max-width: 100%;
+    padding: 0px 30px;*/
+}
+#text_foot {
+	color: #FFFFFF;
+	text-align: right;
+	text-decoration: none;
+}
+#border_white {
+	border-color: #FFFFFF;
+	border-style: solid;
+	border-width: thin;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+#newsletter {
+	background-color: #005BA8;
+	color: #FFFFFF;
+	font-weight: bold;
+	margin-top: 5px;
+	margin-right: auto;
+	margin-bottom: 5px;
+	margin-left: auto;
+	padding-top: 5px;
+	padding-right: auto;
+	padding-bottom: 5px;
+	padding-left: auto;
+}
+ 
+#foot_info {
+	margin: 0 auto;
+	padding: 10px 0;
+}
+
+.footer .foot-left {
+    /*padding-left: 100px;*/
+}
+
+.footer p {
+    margin-bottom: 0;
+}
+
+.foot-right .icons li {
+    float: left;
+    padding: 10px;
+    margin-right: 15px;
+    list-style-type: none;
+}
+
+.button {
+	background: #003aa4; 
+}
+.nav .button {
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+  }
+
+.button:hover {
+	background: #16325b; * Old browsers */
+}
+#button_box {
+	font-size: 15px;
+	position: absolute;
+	top: 470px;
+	left: 90px;	
+}
+.button-group.even-6 li:first-child button, .button-group.even-6 li:first-child .button {
+	border-radius: 15px 0px 0px 15px;
+	border-left: 3px solid #4a7d5c;
+	}
+.button-group.even-6 li:last-child .button 	{
+	border-radius: 0px 15px 15px 0px;
+	border-right: 3px solid #4a7d5c;
+	}
+ul.small-block-grid-3.medium-block-grid-6.large-block-grid-6  {
+  text-align: center;
+}
+.small-block-grid-3.medium-block-grid-6.large-block-grid-6 img {
+	min-height: 55px;
+	}
+ul.button-group.even-6.show-for-medium-up li a {
+	border-top: 3px solid #4a7d5c;
+	border-bottom: 3px solid #4a7d5c;
+}
+
+.row.menu-links.show-for-small-only {
+	margin-bottom: 2em;
+}
+
+.header .columns input[type="text"] {
+	float: right;
+	max-width: 200px;
+	}
+#header_right h5 {
+	float: right;
+	}
+	
+#header_right .top-bar, #header_right .top-bar-section ul li , #header_right .top-bar-section li:not(.has-form) a:not(.button){
+	background: none;	
+	}
+#header_right .top-bar a, #icon-grid a {
+  color: black;
+  text-decoration: underline;
+  font-weight: bold;
+	}
+#header_right .top-bar a:hover, #icon-grid a:hover {
+	color: #7d7d7d;
+	}
+	
+#home_link img {
+	height: 17px;
+	width: auto;
+	}
+footer .contain-to-grid, .footer .top-bar-section ul li, .footer .top-bar-section li:not(.has-form) a:not(.button), footer .top-bar{
+	background: #7BA8BB;
+	}
+	
+.divider {
+	display: none;
+	}
+#fees {
+	width: 100%;
+	}
+	
+.loans .accordion .accordion-navigation > .content, .accordion dd > .content {
+  display: block;
+  padding: 0 0.9375rem;
+  visibility: hidden;
+  opacity: 0;
+  height: 0;
+  overflow: hidden;
+  transition: all 1s ease;
+}
+.loans .accordion .accordion-navigation > .content.active, .accordion dd > .content.active {
+  display: block;
+  background: #FFFFFF;
+  visibility: visible;
+  height: auto;
+  opacity: 1;
+  transition: all 1s ease;
+}
+
+/* small font for disclosure type text  */
+small {
+  font-size: 60%;
+  line-height: inherit; }
+
+/*styles added for eServices.html and Benefits.html (and H1)   */
+
+h1 {
+	text-align:center;
+}
+
+
+.overlay-container {
+  position: relative; /* <-- Set as the reference for the positioned overlay */
+  margin: 20px 15px;
+}
+ .eservices .overlay-container img {
+	width: 100%;
+	height: auto;
+	}
+.benefits .overlay-container {
+	text-align: center;
+	}
+
+.overlay-container .overlay {
+  position: absolute; /* <-- Remove the overlay from normal flow         */
+  top: 2px;
+  bottom: 0;          /* <-- Keep the overlay at the bottom of the box   */
+  left: 2px;            /* <-- Set left and right properties to 0          */
+  right: 2px;
+  width: 200px;           /*     In order to expand the overlay horizontally */
+  padding: 0.4rem;
+  font-size: .8em;
+  color:#000000;
+}
+
+.overlay-container a {
+	 color:#000000;
+	 text-decoration:underline;
+}
+
+.overlay-container .border {
+	 border:1px solid #cccccc;
+	 
+}
+
+.loans .accordion {
+	margin-bottom: 10px;
+	}
+	
+/*styles added for Disclosures  */	
+
+ .centered {
+	text-align: center;
+}
+
+/*styles added for About Us timeline   */	
+
+ .timeline {
+	margin: 0 19px;
+}
+
+.padding {
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+
+
+@media only screen and (max-width: 40em) {
+    .footer {
+        text-align: center;
+    }
+	
+
+
+    #foot_info {
+        padding: 0;
+    }
+	#header_right {
+	display: none;
+	}
+.accordion .accordion-navigation > a, .accordion dd > a{
+	text-align: center;
+	}
+}
