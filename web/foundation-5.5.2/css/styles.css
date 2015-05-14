@@ -198,10 +198,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff9f9', end
 	padding-right: 0px;
 	padding-bottom: 0px;
 	padding-left: 0px;
-	margin-top: 7px;
-  margin-right: 0px;
-  margin-bottom: 0px;
-  margin-left: 142px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
 }
 #newsletter {
 	background-color: #005BA8;
@@ -477,9 +477,3 @@ padding-left: 6.5%;
 
 }
 
-.row.footer {
-   width: 100%;
-   margin-left: auto;
-   margin-right: auto;
-   max-width: initial;
-}
