@@ -129,21 +129,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff9f9', end
 .search .button {
     /*padding: 15px;*/
 }
-#box_welcome {
-	background-color: #95BECF;
-	border: medium solid #33CAD0;
-	border-radius: 1em;
-}
-#box_locations {
-	background-color: #A7CAD7;
-	border: medium solid #33CAD0;
-	border-radius: 1em;	
-}
-#box_products {
-	background-color: #C6DCE5;
-	border: medium solid #33CAD0;
-	border-radius: 1em;
-}
+
 .footer {
 	background: #1e9cd7; /* Old browsers */
 	background: -moz-linear-gradient(left,  #1e9cd7 0%, #0033a0 100%); /* FF3.6+ */
@@ -222,12 +208,18 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff9f9', end
 .button:hover {
 	background: #16325b; * Old browsers */
 }
-#button_box {
+.button_box {
 	font-size: 15px;
-	position: absolute;
-	top: 470px;
-	left: 90px;	
+	font-weight:bold;
+	position:relative;
+	
 }
+.panel-image{
+	position: absolute;
+	bottom: 10px;
+	margin-left: -5%;
+}
+
 .button-group.even-6 li:first-child button, .button-group.even-6 li:first-child .button {
 	border-radius: 15px 0px 0px 15px;
 	border-left: 3px solid #4a7d5c;
@@ -372,6 +364,28 @@ h1 {
 }
 
 
+.panel {
+	border: medium solid #33CAD0;
+	border-radius: 1em;
+	min-height: 706px;
+	}
+	
+#box_welcome {
+	background-color: #95BECF;
+}
+#box_locations {
+	background-color: #A7CAD7;
+
+}
+#box_products {
+	background-color: #C6DCE5;
+}
+
+#box_products ul {
+	list-style: none;
+	margin: 0.75em 0;  
+    padding: 0 1em;  
+	}
 
 @media only screen and (max-width: 40em) {
     .footer {
