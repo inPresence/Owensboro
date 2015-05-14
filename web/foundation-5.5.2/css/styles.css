@@ -212,6 +212,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff9f9', end
 	font-size: 15px;
 	font-weight:bold;
 	position:relative;
+	bottom: 40px;
+
 	
 }
 .panel-image{
@@ -385,6 +387,17 @@ h1 {
 	list-style: none;
 	margin: 0.75em 0;  
     padding: 0 1em;  
+	}
+	
+.ul_set-width{
+  width: 135px;
+  display: inline-block;
+  color: black;
+  font-weight: 600;
+	}
+	
+.ul_red {
+	color: #E01D1D;
 	}
 
 @media only screen and (max-width: 40em) {
