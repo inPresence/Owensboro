@@ -390,3 +390,25 @@ h1 {
 	text-align: center;
 	}
 }
+
+
+.orbit-container .orbit-next > span {
+border-left-color: #A3A3A3;
+}
+
+.orbit-container .orbit-prev > span {
+border-right-color: #A3A3A3;
+}
+
+
+.orbit-slide-number {
+  display: none;
+}
+.orbit-progress {
+  display: none;
+}
+.orbit-timer {
+  display: none;
+}
+
+
