@@ -10,54 +10,75 @@
   </head>
   <body>
         <!-- header -->
-        <header class="row header" id="blueTop">
-        	<div class="large-12 columns" id="header_main">
-            	<div class="small-12 medium-4 large-4 columns" id="header_left"><img src="img/logo_main.png" alt=""/></div>
-        		<div class="small-12 medium-8 large-8 columns" id="header_right">
-                	<div class="row">
-                		<div class="small-3 columns">
-                    	<label for="userId" class="right inline">User ID</label>
-                		</div>
-                		<div class="small-9 columns">
-                    	<input type="text" id="userId">
-                		</div>
+        <header class="headWrapper">
+            <div class="row header" id="blueTop">
+                <div class="large-12 columns" id="header_main">
+                    <div class="small-12 medium-4 large-4 columns" id="header_left"><img src="img/logo_main.png" alt=""/></div>
+                    <div class="small-12 medium-8 large-8 columns" id="header_right">
+                        <div class="row" id="login">
+                            <div class="small-4 medium-4 large-4 columns">
+                                <input type="text" id="userId"></input>
+                                <label for="userId">User ID</label>
+                            </div>
+                            <div class="small-4 medium-4 large-4 columns">
+                                <input type="text" id="pwd">
+                                <label for="pwd">Password</label>
+                            </div>
+                            <div class="small-4 medium-4 large-4 columns">
+                                <p id="login_text"><strong>Home Banking Login</strong></p>
+                                <label for="login_text">Need Help?</label>
+                            </div>
+                        </div>
+                        <!-- nav starts -->
+                        <div class="row" id="navigation">
+                            <nav class="top-bar">
+                                <section class="top-bar-section">
+                                    <ul>
+                                        <li><a href="#">HOME</a></li>
+                                        <li><a href="#">ABOUT US</a></li>
+                                        <li><a href="#">LOCATIONS</a></li>
+                                        <li><a href="#">PRODUCTS & SERVICES</a></li>
+                                        <li><a href="#">RATES</a></li>
+                                        <li><a href="#" style="border-right: none;">CONTACT</a></li>
+                                    </ul>
+                                </section>
+                            </nav>
+                        </div>
+                        <!-- nav ends -->
                     </div>
-                    <!-- nav starts --> 
-                    <div class="row">Navigation</div>
-                    <!-- nav ends --> 
                 </div>
             </div>
-            </header>
+        </header>
             <!-- orbit starts -->
             <div class="row large-6 large-centered collapse"><br>
-      		
+
          		<ul data-orbit>
 				<li><a href="#"><img src="img/orbit/orbit_img1.png" alt=""/></a></li>
                 <li><a href="#"><img src="img/orbit/orbit_img2.png" alt=""/></a></li>
                 <li><a href="#"><img src="img/orbit/orbit_img3.png" alt=""/></a></li>
-                <li><a href="#"><img src="img/orbit/orbit_img4.png" alt=""/></a></li> 
-          		</ul> 
-     
+                <li><a href="#"><img src="img/orbit/orbit_img4.png" alt=""/></a></li>
+          		</ul>
+
       		</div>
-            <!-- orbit 2 
-             
+            <!-- orbit 2
+
     	<div class="row collapse show-for-medium-up">
          <div class="small-12 medium-12 large-12 large-centered columns"><br>
             <ul class="example-orbit text-center" data-orbit>
                 <li><a href="#"><img src="img/orbit/orbit_img1.png" alt=""/></a></li>
                 <li><a href="#"><img src="img/orbit/orbit_img2.png" alt=""/></a></li>
                 <li><a href="#"><img src="img/orbit/orbit_img3.png" alt=""/></a></li>
-                <li><a href="#"><img src="img/orbit/orbit_img4.png" alt=""/></a></li>               
+                <li><a href="#"><img src="img/orbit/orbit_img4.png" alt=""/></a></li>
             </ul>
         </div> -->
        <!-- 3 boxes --> <br>
-    
+
 
     <div class="row">
       		    <div class="large-4 medium-4 columns">
-				
+
 						<h4 class="subheader text-center">WELCOME</h4>
-						
+
 					<div class="panel" id="box_welcome">
 						<strong>ATTENTION OFCU MEMBERS! SYSTEM UPGRADE COMING SOON!...
 						</strong>
@@ -80,14 +101,14 @@
 
 	 <p>We will continue to update our membership during this
 	 process. Please check our website www.ofcuonline.com regularly</p>-->
-	 
-	 
+
+
 						<a class="text-center button" id="newsletter">
 							Newsletter July 2015 &#9658;
 						</a>
-						
+
 						<br><br>
-						
+
 						<div class="text-center panel-image">
 							<img src="img/1807100_Veer.png" alt=""/>
 							<a type="" class="text-center button strong small round button_box" id="">learn more</a>
@@ -96,7 +117,7 @@
 				</div>
 			<div class="large-4 medium-4 columns " >
 					<h4 class="subheader text-center">BRANCH LOCATIONS</h4>
-				
+
 				<div class="panel" id="box_locations">
 						<h4 class="subheader">Main Branch</h4>
 						<address>717 Harvard Drive<br>
@@ -126,13 +147,13 @@
 						<a type="button" class="text-center button strong small round button_box" id=""><b>learn more</b></a>
 					</div>
 				</div>
-			</div>     
+			</div>
 
     </div>
      <!-- footer -->
      <div class="row footer">
         <div class="row" id="foot_info">
-            <div class="small-12 medium-6 large-6 columns foot-left" id="border_white">
+            <div class="small-12 medium-4 large-4 columns foot-left" id="border_white">
                 <img src="https://www.lovemycreditunion.org/client/love_my_cu/banner_push/?bid=15&amp;campid=4&amp;clientid=8988&amp;sid=1" border="0" height="60" width="468" alt="Member Cellular Discounts with Sprint" title="Member Cellular Discounts with Sprint">
             </div>
             <div class="small-12 medium-6 large-6 columns foot-right">
@@ -141,11 +162,11 @@
                     <li><img src="img/ncualarge.gif" alt="NCU logo"/><br>
                     <small class="text-centered" id="text_foot">NMLS &#35;561504</small></li>
                     <li><img src="img/shareone.jpg" alt="Share One Logo"/><br>
-                    <small class="text-centered" id="text_foot"><a href="#">Important Privacy Notice</a></small></li>                    
+                    <small class="text-centered" id="text_foot"><a href="#">Important Privacy Notice</a></small></li>
                 </ul>
            </div>
        </div>
-     
+
         <!--
         <div class="small-12 medium-6 large-6 columns" id="header_left"></div>
         <div class="small-12 medium-6 large-6 columns" id="header_right">
@@ -174,8 +195,8 @@
 					</div>
 				</div>
         </div>-->
-   
-    
+
+
     <script src="js/vendor/jquery.js"></script>
     <script src="js/foundation.min.js"></script>
     <script>
@@ -191,7 +212,4 @@
 </html>
 
 
-athena's silverland desserts
-chris ogden
-7084880800
 
