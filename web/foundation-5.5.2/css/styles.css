@@ -191,9 +191,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff9f9', end
 	text-decoration: none;
 }
 #border_white {
-	border-color: #FFFFFF;
+/* 	border-color: #FFFFFF;
 	border-style: solid;
-	border-width: thin;
+	border-width: thin; */
 	padding-top: 0px;
 	padding-right: 0px;
 	padding-bottom: 0px;
