@@ -170,7 +170,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff9f9', end
     /*padding: 15px;*/
 }
 
-.footer {
+#footer {
 	background: #1e9cd7; /* Old browsers */
 	background: -moz-linear-gradient(left,  #1e9cd7 0%, #0033a0 100%); /* FF3.6+ */
 	background: -webkit-gradient(linear, left top, right top, color-stop(0%,#1e9cd7), color-stop(100%,#0033a0)); /* Chrome,Safari4+ */
