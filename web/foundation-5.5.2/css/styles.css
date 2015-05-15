@@ -252,13 +252,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff9f9', end
 	font-size: 15px;
 	font-weight:bold;
 	position:relative;
-<<<<<<< HEAD
+
 	bottom: 40px;
 
-	
-=======
-
->>>>>>> origin/master
 }
 .panel-image{
 	position: absolute;
