@@ -61,6 +61,17 @@ body {
     color: white;
 }
 
+#login_btn {
+    background-color: #FFFFFF;
+    color: #0135A1;
+
+    font-weight: bold;
+    font-size: 10pt;
+    width: 150px;
+    padding: 5px;
+    margin-bottom: 1px;
+}
+
 #navigation {
     position: absolute;
     bottom: 0;
@@ -170,7 +181,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff9f9', end
     /*padding: 15px;*/
 }
 
-.footer {
+#footer {
 	background: #1e9cd7; /* Old browsers */
 	background: -moz-linear-gradient(left,  #1e9cd7 0%, #0033a0 100%); /* FF3.6+ */
 	background: -webkit-gradient(linear, left top, right top, color-stop(0%,#1e9cd7), color-stop(100%,#0033a0)); /* Chrome,Safari4+ */
@@ -191,9 +202,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff9f9', end
 	text-decoration: none;
 }
 #border_white {
-	border-color: #FFFFFF;
+/* 	border-color: #FFFFFF;
 	border-style: solid;
-	border-width: thin;
+	border-width: thin; */
 	padding-top: 0px;
 	padding-right: 0px;
 	padding-bottom: 0px;
@@ -252,6 +263,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff9f9', end
 	font-size: 15px;
 	font-weight:bold;
 	position:relative;
+
+	bottom: 40px;
 
 }
 .panel-image{
@@ -432,6 +445,17 @@ h1 {
 	list-style: none;
 	margin: 0.75em 0;
     padding: 0 1em;
+	}
+	
+.ul_set-width{
+  width: 135px;
+  display: inline-block;
+  color: black;
+  font-weight: 600;
+	}
+	
+.ul_red {
+	color: #E01D1D;
 	}
 
 @media only screen and (max-width: 40em) {
