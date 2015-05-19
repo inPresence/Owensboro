@@ -469,7 +469,7 @@ h1 {
         padding: 0;
     }
 	#header_right {
-	display: none;
+/* 	display: none; */
 	}
 .accordion .accordion-navigation > a, .accordion dd > a{
 	text-align: center;
@@ -506,4 +506,10 @@ padding-left: 6.5%;
    margin-left: auto;
    margin-right: auto;
    max-width: initial;
+}
+
+
+@media only screen and (max-width: 40em) { .large-8.large-centered.collapse.columns {
+  display: none;
+}
 }
