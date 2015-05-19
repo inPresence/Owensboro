@@ -425,7 +425,8 @@ h1 {
 .panel {
 	border: medium solid #33CAD0;
 	border-radius: 1em;
-	min-height: 706px;
+	/*min-height: 706px;*/
+    min-height: 475px;
 	}
 
 #box_welcome {
