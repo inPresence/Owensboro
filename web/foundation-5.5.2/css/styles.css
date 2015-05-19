@@ -61,6 +61,17 @@ body {
     color: white;
 }
 
+#login_btn {
+    background-color: #FFFFFF;
+    color: #0135A1;
+
+    font-weight: bold;
+    font-size: 10pt;
+    width: 150px;
+    padding: 5px;
+    margin-bottom: 1px;
+}
+
 #navigation {
     position: absolute;
     bottom: 0;
