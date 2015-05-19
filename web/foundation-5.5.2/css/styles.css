@@ -463,14 +463,40 @@ h1 {
         text-align: center;
     }
 
-
+    .headWrapper {
+        height: 530px;
+    }
 
     #foot_info {
         padding: 0;
     }
+
+    #header_left img {
+        display: block;
+        margin: 0 auto;
+    }
+
 	#header_right {
-	display: none;
+	/*display: none;*/
 	}
+
+    .row#login .columns {
+        margin-bottom: 10px;
+    }
+
+    #navigation {
+        position: initial;
+    }
+
+    #navigation nav.top-bar {
+        height: 100%;
+    }
+
+    #header_right .top-bar a, #icon-grid a {
+        border-right: none;
+        border-bottom: 1px solid white;
+    }
+
 .accordion .accordion-navigation > a, .accordion dd > a{
 	text-align: center;
 	}
