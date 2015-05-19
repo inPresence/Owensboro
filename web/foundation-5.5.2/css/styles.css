@@ -508,4 +508,19 @@ padding-left: 6.5%;
    max-width: initial;
 }
 
+@media only screen and (max-width: 40em)   { #border_white {
+
+  margin-left: 3%;
+  width: 94%;
+}}
+
+@media only screen and (max-width: 40em)   {
+
+.foot-right .icons li {
+
+   padding: 10px 0 0 0;
+  margin-right: 11px;
+
+}}
+
 
