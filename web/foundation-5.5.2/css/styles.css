@@ -553,3 +553,22 @@ padding-left: 6.5%;
    max-width: initial;
 }
 
+<<<<<<< HEAD
+=======
+@media only screen and (max-width: 40em)   { #border_white {
+
+  margin-left: 3%;
+  width: 94%;
+}}
+
+@media only screen and (max-width: 40em)   {
+
+.foot-right .icons li {
+
+   padding: 10px 0 0 0;
+  margin-right: 11px;
+
+}}
+
+
+>>>>>>> 78be4a83b52bcb2060af583267656ccd370e52a8
