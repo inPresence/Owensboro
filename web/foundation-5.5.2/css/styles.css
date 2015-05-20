@@ -260,9 +260,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff9f9', end
 	background: #16325b; * Old browsers */
 }
 .button_box {
-	font-size: 15px;
+	font-size: 18px;
 	font-weight: bold;
 	position: relative;
+    padding: 10px;
 }
 .panel-image{
 	position: absolute;
