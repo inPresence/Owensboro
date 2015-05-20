@@ -428,8 +428,19 @@ h1 {
 
     /*min-height: 475px;*/
     height: 515px;
+    position: relative;
 }
 
+.panel .row {
+    position: absolute;
+    bottom: 0;
+}
+
+.panel .row img {
+    display: block;
+    margin: auto;
+    width: 285px;
+}
 
 
 #box_welcome {
@@ -520,6 +531,10 @@ h1 {
     .button_box {
         margin-bottom: 0;
         margin-top: 10px;
+    }
+
+    .panel .row {
+        position: initial;
     }
 
     .panel .row img {
