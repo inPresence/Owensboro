@@ -425,9 +425,8 @@ h1 {
 .panel {
 	border: medium solid #33CAD0;
 	border-radius: 1em;
-	/*min-height: 706px;*/
     min-height: 475px;
-	}
+}
 
 #box_welcome {
 	background-color: #95BECF;
@@ -488,6 +487,25 @@ h1 {
 .accordion .accordion-navigation > a, .accordion dd > a{
 	text-align: center;
 	}
+
+    .panel {
+        min-height: 0;
+    }
+
+    .panel-image {
+        position: relative;
+        margin-left: 0;
+    }
+
+    .panel-image img {
+        margin: 0 auto;
+    }
+
+    .button_box {
+        margin-bottom: 0;
+        margin-top: 10px;
+    }
+
 }
 
 
@@ -514,4 +532,3 @@ border-right-color: #A3A3A3;
 padding-left: 6.5%;
 
 }
-
