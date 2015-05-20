@@ -261,11 +261,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff9f9', end
 }
 .button_box {
 	font-size: 15px;
-	font-weight:bold;
-	position:relative;
-
-	bottom: 40px;
-
+	font-weight: bold;
+	position: relative;
 }
 .panel-image{
 	position: absolute;
@@ -575,8 +572,8 @@ padding-left: 6.5%;
 
 }
 
-@media only screen 
-and (min-device-width : 768px) 
+@media only screen
+and (min-device-width : 768px)
 and (max-device-width : 1024px) {
 
 .orbit-container {
