@@ -426,7 +426,8 @@ h1 {
 	border: medium solid #33CAD0;
 	border-radius: 1em;
 
-    min-height: 475px;
+    /*min-height: 475px;*/
+    height: 515px;
 }
 
 
@@ -503,7 +504,8 @@ h1 {
 	}
 
     .panel {
-        min-height: 0;
+        /*min-height: 0;*/
+        height: initial;
     }
 
     .panel-image {
@@ -518,6 +520,11 @@ h1 {
     .button_box {
         margin-bottom: 0;
         margin-top: 10px;
+    }
+
+    .panel .row img {
+        display: block;
+        margin: 0 auto;
     }
 
 }
