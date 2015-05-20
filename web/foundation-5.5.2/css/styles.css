@@ -427,8 +427,13 @@ h1 {
 .panel {
 	border: medium solid #33CAD0;
 	border-radius: 1em;
+<<<<<<< HEAD
     min-height: 475px;
 }
+=======
+	min-height: 706px;
+	}
+>>>>>>> parent of 78be4a8... Merge pull request #11 from blackiebrwn/master
 
 #box_welcome {
 	background-color: #95BECF;
